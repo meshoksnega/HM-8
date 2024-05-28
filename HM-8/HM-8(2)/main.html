@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список уроків</title>
+    <style>
+        /* Кольори для різних днів тижня */
+        .monday li { color: blue; }
+        .tuesday li { color: green; }
+        .wednesday li { color: orange; }
+        .thursday li { color: red; }
+        .friday li { color: purple; }
+
+        /* Псевдокласи стану */
+        li:hover { background-color: lightgray; }
+        li:focus { outline: 2px solid yellow; }
+        li:active { background-color: lightblue; }
+        li:visited { text-decoration: line-through; }
+        li:checked { font-weight: bold; }
+
+        /* Структурні псевдокласи */
+        li:first-child { font-style: italic; }
+        li:last-child { text-transform: uppercase; }
+        li:nth-child(odd) { background-color: #f9f9f9; }
+        li:nth-child(even) { background-color: #e9e9e9; }
+        li:nth-last-child(2) { color: darkred; }
+
+    </style>
+</head>
+<body>
+    <div class="lesson-schedule">
+        <h2>Список уроків на тиждень</h2>
+
+        <div class="day monday">
+            <h3>Понеділок</h3>
+            <ul>
+                <li>Математика</li>
+                <li>Фізика</li>
+                <li>Історія</li>
+            </ul>
+        </div>
+
+        <div class="day tuesday">
+            <h3>Вівторок</h3>
+            <ul>
+                <li>Література</li>
+                <li>Біологія</li>
+                <li>Географія</li>
+            </ul>
+        </div>
+
+        <div class="day wednesday">
+            <h3>Середа</h3>
+            <ul>
+                <li>Хімія</li>
+                <li>Фізкультура</li>
+                <li>Музика</li>
+            </ul>
+        </div>
+
+        <div class="day thursday">
+            <h3>Четвер</h3>
+            <ul>
+                <li>Математика</li>
+                <li>Інформатика</li>
+                <li>Малювання</li>
+            </ul>
+        </div>
+
+        <div class="day friday">
+            <h3>П'ятниця</h3>
+            <ul>
+                <li>Англійська</li>
+                <li>Фізика</li>
+                <li>Хімія</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
